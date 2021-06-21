@@ -24,7 +24,7 @@ buttonValue.forEach(element => {
         let buttonText = e.target.innerText;
 
         if (buttonText === "C") {
-            screenValue.value=[];
+            screenValue.value="";
         }
         else if (buttonText === '.' && !isdot) {
             screenValue.value += buttonText;
