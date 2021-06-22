@@ -26,12 +26,12 @@ buttonValue.forEach(element => {
         if (buttonText === "C") {
             screenValue.value="";
         }
-        else if (buttonText === '.' && !isdot) {
+        else if (buttonText === '.') {
             screenValue.value += buttonText;
           
         }
 
-        else if (buttonText === '+' && isOperator) {
+        else if (buttonText === '+' ) {
             if (screenValue.value != '0') {
                 screenValue.value += buttonText;
             }
@@ -41,7 +41,7 @@ buttonValue.forEach(element => {
             
 
         }
-        else if (buttonText === '-' && isOperator) {
+        else if (buttonText === '-' ) {
             if (screenValue.value != '0') {
                 screenValue.value += buttonText;
             }
@@ -50,14 +50,14 @@ buttonValue.forEach(element => {
             }
             
         }
-        else if (buttonText === '*' && isOperator) {
+        else if (buttonText === '*' ) {
             if (screenValue.value != '0') {
                 screenValue.value += buttonText;
                
             }
 
         }
-        else if (buttonText === '/' && isOperator) {
+        else if (buttonText === '/' ) {
             if (screenValue.value != '0') {
                 screenValue.value += buttonText;
               
